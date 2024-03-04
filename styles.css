@@ -1,0 +1,59 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-image: url('https://th.bing.com/th/id/OIP.4AR-PHyAS-iWg00e5EjeewHaEK?w=287&h=180&c=7&r=0&o=5&pid=1.7') ;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-size: 100vw;
+    
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #ffffff1f;
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .converter input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 150px;
+  }
+  
+  .converter select {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .converter button {
+    padding: 10px 20px;
+    background-color: #4c00ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .converter button:hover {
+    background-color: #180058;
+  }
+  
+  #result {
+    text-align: center;
+    font-size: 1.2rem;
+color: antiquewhite;  }
+  
